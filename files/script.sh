@@ -13,3 +13,7 @@ export SCALE_HW="${PWD}"
 cd ${SCALE_HW}/target/lpc1313fbd48
 export TARGET="${PWD}"
 make --no-builtin-rules clean all
+
+cd ..
+cd ..
+cd ..
